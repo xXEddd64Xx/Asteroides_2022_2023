@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipusGrafics">
+        <item>Vectorial</item>
+        <item>Bitmap</item>
+        <item>3D</item>
+    </string-array>
+    <string-array name="tipusGraficsValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="cançoEscollida">
+        <item>Espacial 1</item>
+        <item>Espacial 2</item>
+        <item>Espacial 3</item>
+    </string-array>
+    <string-array name="cançoEscollidaValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="tipusControl">
+        <item>Teclat</item>
+        <item>Tactil</item>
+        <item>Sensors</item>
+    </string-array>
+    <string-array name="tipusControlValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="tipusConnexio">
+        <item>Bluetooth</item>
+        <item>Wi-Fi</item>
+        <item>Ethernet</item>
+    </string-array>
+    <string-array name="tipusConnexioValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

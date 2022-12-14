@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencies_principal">
+
+    <PreferenceCategory android:title="General" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/tipusGrafics"
+            android:entryValues="@array/tipusGraficsValors"
+            android:key="grafics"
+            android:summary="Escollir la representació de gràficos"
+            android:title="Tipus de gràfics" />
+        <EditTextPreference
+            android:defaultValue="3"
+            android:inputType="number"
+            android:maxLength="1"
+            android:key="fragments"
+            android:summary="En quants trossos es divideix un asteroide"
+            android:title="Número de fragments" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Música" >
+        <CheckBoxPreference
+            android:key="musica"
+            android:summary="Se reprodueix música de fons durant la partida"
+            android:title="Reproduir música" />
+        <ListPreference
+            android:key="songs"
+            android:title="Cançons"
+            android:summary="Quina canço vols que soni mentres jugues"
+            android:entries="@array/cançoEscollida"
+            android:entryValues="@array/cançoEscollidaValors"
+            android:defaultValue="1"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Controls" >
+        <ListPreference
+            android:key="controls"
+            android:title="Tipus de controls"
+            android:summary="Com controlaras la nau?"
+            android:entries="@array/tipusControl"
+            android:entryValues="@array/tipusControlValors"
+            android:defaultValue="1"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Mode multijugador">
+        <CheckBoxPreference
+            android:key="multijugador"
+            android:summary="S'activa el mode multijugador"
+            android:title="Activar multijugador" />
+        <EditTextPreference
+            android:defaultValue="3"
+            android:inputType="number"
+            android:key="jugadors"
+            android:summary="Maxim de jugadors en una partida"
+            android:title="Maxim de jugadors" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/tipusConnexio"
+            android:entryValues="@array/tipusConnexioValors"
+            android:key="connexio"
+            android:summary="Escollir el tipus de connexio"
+            android:title="Tipus de connexio" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
